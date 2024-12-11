@@ -1,0 +1,68 @@
+body {
+    background-image: url('beautiful-nature-background-for-zoom-calls_4lS.jpeg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    margin: 0; 
+    height: 100vh; 
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.411);
+    backdrop-filter: blur(0px); 
+    border-radius: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 320px;
+    margin-right: 20px; 
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    color: rgb(118, 156, 52);
+    margin-bottom: 10px;
+}
+
+h5 {
+    font-size: 16px;
+    text-align: center;
+    color: rgb(182, 231, 240);
+    margin-bottom: 20px;
+}
+
+input {
+    font-size: 50;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    display: block;
+}
+.underline {
+    text-decoration: underline;
+}
+p {
+    text-align: center;
+    color:black;
+}
+input[type="submit"] {
+    background-color:bisque;
+    color:black; 
+    font-size: 16px; 
+    padding: 10px 20px; 
+    border: none;
+}
+h2 {
+    color: white;
+    position: fixed;
+    top: 20px;
+    left: 30px;
+}

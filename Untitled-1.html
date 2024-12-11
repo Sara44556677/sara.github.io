@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sara's website</title>
+        <link rel="stylesheet" href="website.css">
+        <style>
+            h1 {
+                font-size: 80px;
+                color: rgb(118, 156, 52);
+                text-align: center;
+                margin-top: 15%;
+            }
+
+            h5 {
+                color: gainsboro;
+                text-align: center;
+            }
+
+            body {
+                text-align: center;
+                margin: 0;
+                height: 100vh;  /* Make sure the page takes full height */
+                position: relative;  /* Allow absolute positioning of inputs */
+            }
+
+            .form-container {
+                position: absolute;
+                top: 25%;
+                right: 30%;
+                transform: translateX(50%); /* Center horizontally */
+                text-align: center;
+            }
+
+            p {
+                position: relative;
+                margin: 0;
+            }
+
+            input {
+                padding: 8px;
+                border: 1px solid #ccc;
+                border-radius: 1.5px;
+                width: 300px;
+                box-sizing: border-box;
+                margin: 15px auto;   /* Center horizontally and add vertical spacing */
+                display: block;      /* Makes the input fields stack vertically */
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Create account</h1>
+        <h5>or use your email for registration</h5>
+
+        <div class="form-container">
+            <p>
+                <input type="text" placeholder="Name"><br>
+            </p>
+
+            <p>
+                <input type="text" placeholder="Email"><br>
+            </p>
+
+            <p>
+                <input type="password" placeholder="Password"><br>
+            </p>
+        </div>
+    </body>
+</html>
